@@ -21,7 +21,7 @@
         <input type="text" name="last_name">
         <input type="submit" name="save" value="salvesta">
     </form>
-    <h1>sinu ema isa</h1>
+    <h1>autorid</h1>
     <ul>
         <?php while( $authors = $stmt->fetch()): ?>
         <li><?=$authors['first_name'];?>

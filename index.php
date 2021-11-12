@@ -14,6 +14,7 @@ $stmt = $pdo->query('SELECT * FROM books');
 <body>
     <header>
         <a href="add.php?id=<?=$bookId?>">ADD AUTHOR</a>
+        <a href="add_book.php?id=<?=$bookId?>">ADD BOOK</a>
     </header>
     <ul>
         <?php while ($book = $stmt->fetch() ): ?>
